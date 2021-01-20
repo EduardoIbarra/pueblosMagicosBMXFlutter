@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pueblosMagicosBMXFlutter/card_image_list.dart';
-import 'package:pueblosMagicosBMXFlutter/gradient_back.dart';
+import 'package:pueblosMagicosBMXFlutter/Place/ui/widgets/card_image_list.dart';
+import 'package:pueblosMagicosBMXFlutter/widgets/gradient_back.dart';
 
 class HeaderAppbar extends StatelessWidget {
   @override

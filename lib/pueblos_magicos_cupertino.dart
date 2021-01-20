@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:pueblosMagicosBMXFlutter/place_detail.dart';
-import 'package:pueblosMagicosBMXFlutter/profile.dart';
-import 'package:pueblosMagicosBMXFlutter/search.dart';
+
+import 'Place/ui/screens/place_detail.dart';
+import 'Place/ui/screens/search.dart';
+import 'User/ui/screens/profile.dart';
 
 class PueblosMagicosCupertino extends StatelessWidget {
   @override

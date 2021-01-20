@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pueblosMagicosBMXFlutter/description_place.dart';
-import 'package:pueblosMagicosBMXFlutter/gradient_back.dart';
-import 'package:pueblosMagicosBMXFlutter/header_appbar.dart';
 import 'package:pueblosMagicosBMXFlutter/pueblos_magicos.dart';
-import 'package:pueblosMagicosBMXFlutter/review_list.dart';
 
 void main() {
   runApp(MyApp());

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pueblosMagicosBMXFlutter/review_list.dart';
-
-import 'description_place.dart';
+import 'package:pueblosMagicosBMXFlutter/Place/ui/widgets/description_place.dart';
+import 'package:pueblosMagicosBMXFlutter/Place/ui/widgets/review_list.dart';
 import 'header_appbar.dart';
 
 class PlaceDetail extends StatelessWidget {

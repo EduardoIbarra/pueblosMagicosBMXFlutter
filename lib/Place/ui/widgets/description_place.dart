@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pueblosMagicosBMXFlutter/button_purple.dart';
+import 'package:pueblosMagicosBMXFlutter/widgets/button_purple.dart';
 
 class DescriptionPlace extends StatelessWidget {
   String namePlace;

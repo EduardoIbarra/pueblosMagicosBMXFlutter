@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pueblosMagicosBMXFlutter/review.dart';
+import 'package:pueblosMagicosBMXFlutter/Place/ui/widgets/review.dart';
 
 class ReviewList extends StatelessWidget {
   @override

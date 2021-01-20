@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pueblosMagicosBMXFlutter/floating_action_button_green.dart';
+import 'package:pueblosMagicosBMXFlutter/widgets/floating_action_button_green.dart';
 
 class CardImage extends StatelessWidget {
   String pathImage = 'assets/img/motorrax.jpg';
