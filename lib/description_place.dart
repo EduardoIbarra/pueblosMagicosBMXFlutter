@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pueblosMagicosBMXFlutter/button_purple.dart';
 
 class DescriptionPlace extends StatelessWidget {
   String namePlace;
@@ -54,6 +55,8 @@ class DescriptionPlace extends StatelessWidget {
           )),
       Row(children: <Widget>[star, star, star, starHalf, starBorder]),
     ]);
-    return Column(children: <Widget>[titleStars, description]);
+    return Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[titleStars, description, ButtonPurple('Navigate')]);
   }
 }
