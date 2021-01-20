@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:pueblosMagicosBMXFlutter/description_place.dart';
 import 'package:pueblosMagicosBMXFlutter/gradient_back.dart';
 import 'package:pueblosMagicosBMXFlutter/header_appbar.dart';
+import 'package:pueblosMagicosBMXFlutter/pueblos_magicos.dart';
 import 'package:pueblosMagicosBMXFlutter/review_list.dart';
 
 void main() {
@@ -31,22 +32,7 @@ class MyApp extends StatelessWidget {
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
         // home: MyHomePage(title: 'Hello World'),
-        home: Scaffold(
-          // body: new DescriptionPlace('Santiago, NL', 5, 'Esta es una descripción algo larguita para ver qué tal se van a ver las descripciones de los pueblos mágicos'),
-          // body: ReviewList()));
-          body: Stack(
-            children: <Widget>[
-              ListView(
-                children: <Widget>[
-                  DescriptionPlace('Santiago, NL', 5,
-                      'Esta es una descripción algo larguita para ver qué tal se van a ver las descripciones de los pueblos mágicos'),
-                  ReviewList()
-                ],
-              ),
-              HeaderAppbar()
-            ],
-          ),
-        ));
+        home: PueblosMagicos());
   }
 }
 
