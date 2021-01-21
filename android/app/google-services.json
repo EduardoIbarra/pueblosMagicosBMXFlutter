@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "555950414907",
+    "project_id": "pueblosmagicosmx-889d5",
+    "storage_bucket": "pueblosmagicosmx-889d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555950414907:android:29882f87ef64f2b162d01e",
+        "android_client_info": {
+          "package_name": "com.motorrax.pueblosmagicos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555950414907-3uv9u7r36k95s3mfd0ahsfj1vfeqi31q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeCDQSFb5LawFrK0lZHyJra2ACvLgWNr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555950414907-3uv9u7r36k95s3mfd0ahsfj1vfeqi31q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
